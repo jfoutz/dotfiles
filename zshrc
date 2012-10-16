@@ -34,3 +34,9 @@ plugins=(git vagrant)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
+export PATH=/opt/local/bin:$PATH
+alias java6="export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_30-b12-404.jdk/Contents/Home/"
+alias java7="export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/"
+
+java6
