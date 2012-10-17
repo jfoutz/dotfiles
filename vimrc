@@ -18,3 +18,6 @@ set expandtab
 syntax enable
 :colorscheme desert
 :inoremap <F5> <C-R>=strftime("%c")<CR>
+set rtp+=$GOROOT/misc/vim
+filetype plugin indent on
+syntax on
