@@ -44,6 +44,8 @@ alias java7="export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/
 
 java6
 
+export ANT_OPTS=-Xmx2048m
+
 
 # go stuff
 
