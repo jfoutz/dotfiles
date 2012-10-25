@@ -21,5 +21,5 @@ syntax enable
 set rtp+=$GOROOT/misc/vim
 filetype plugin indent on
 syntax on
-au BufRead,BufNewFile *.go       setlocal ft=go ts=8 sw=8 expandtab
+au BufRead,BufNewFile *.go       setlocal ft=go ts=4 sw=4 expandtab
 

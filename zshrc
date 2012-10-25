@@ -36,7 +36,7 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export EDITOR="vim"
 
-export PATH=/opt/local/bin:$PATH:/Users/jfoutz/Documents/appengine/google_appengine
+export PATH=/opt/local/bin:$PATH:/Users/jfoutz/Documents/appengine/google_appengine:/Applications/basis/bin
 
 # java stuff
 alias java6="export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_30-b12-404.jdk/Contents/Home/"
@@ -54,5 +54,7 @@ export GOROOT=/usr/local/go/
 source $GOROOT/misc/zsh/go
 
 
+# bbj stuff
+alias bbjantbuild='cd ~/Documents/workspace/BBj/src/com/basis; ant build && ant deploy && ant register; cd -'
 
 
