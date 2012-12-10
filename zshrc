@@ -36,7 +36,7 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export EDITOR="vim"
 
-export PATH=/opt/local/bin:$PATH:/Users/jfoutz/Documents/appengine/google_appengine:/Applications/basis/bin:/Users/jfoutz/Library/Haskell/bin
+export PATH=/Users/jfoutz/Library/Haskell/bin:/opt/local/bin:$PATH:/Users/jfoutz/Documents/appengine/google_appengine:/Applications/basis/bin
 
 # java stuff
 alias java6="export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_30-b12-404.jdk/Contents/Home/"
