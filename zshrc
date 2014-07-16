@@ -36,13 +36,14 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export EDITOR="vim"
 
-export PATH=/Users/jfoutz/Library/Haskell/bin:/opt/local/bin:$PATH:/Users/jfoutz/Documents/appengine/google_appengine:/Applications/basis/bin
+export GOPATH=$HOME/Documents/go
+export PATH=~/Library/Haskell/bin:~/bin:/opt/local/bin:$GOPATH/bin:$PATH
 
 # java stuff
 alias java6="export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_30-b12-404.jdk/Contents/Home/"
-alias java7="export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/"
+alias java7="export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/"
 
-java6
+java7
 
 export ANT_OPTS=-Xmx2048m
 
@@ -53,8 +54,5 @@ export GOROOT=/usr/local/go/
 
 source $GOROOT/misc/zsh/go
 
-
-# bbj stuff
-alias bbjantbuild='cd ~/Documents/workspace/BBj/src/com/basis; ant build && ant deploy && ant register; cd -'
 
 
