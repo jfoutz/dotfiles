@@ -37,7 +37,7 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR="vim"
 
 export GOPATH=$HOME/Documents/go
-export PATH=~/Library/Haskell/bin:~/bin:/opt/local/bin:$GOPATH/bin:$PATH
+export PATH=/Users/jfoutz/Library/Haskell/ghc-7.4.2/lib/cabal-install-1.20.0.3/bin:~/bin:/opt/local/bin:$GOPATH/bin:$PATH
 
 # java stuff
 alias java6="export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_30-b12-404.jdk/Contents/Home/"
